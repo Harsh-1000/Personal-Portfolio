@@ -69,13 +69,13 @@
 
 label::after
 {
-    content: url("../node_modules/bootstrap-icons/icons/plus-lg.svg");
+    content: url("../icons/plus-lg.svg");
 }
 
 
 .accordion-tab > .accordion-toggle:checked ~ label::after
 {
-    content: url("../node_modules/bootstrap-icons/icons/dash-lg.svg");
+    content: url("../icons/dash-lg.svg");
     
 }
 
