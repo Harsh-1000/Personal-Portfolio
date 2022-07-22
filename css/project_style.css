@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+.pop
+{
+    width: 81.5%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/wall.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+.box{
+
+    width:  250px;
+    height: 330px;
+    display: inline-block;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 20px;
+
+    z-index: 1;
+
+}
+
+.card:hover{
+
+    transform: rotateY(180deg);
+
+}
+
+.card{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.8s ease;
+}
+
+.card #frontcard{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#card1 #frontcard{
+    background:transparent;
+   
+    border: 2px solid cornflowerblue;
+    box-shadow: 2px 2px 2px cornflowerblue;
+    border-radius: 20%;
+}
+
+#card2 #frontcard{
+    background:transparent;
+    border: 2px solid red;
+    box-shadow: 2px 2px 2px red;
+    border-radius: 20%;
+}
+
+#card3 #frontcard{
+    background:transparent;
+    border: 2px solid green;
+    box-shadow: 2px 2px 2px green;
+    border-radius: 20%;
+}
+
+
+#card1 #backcard{
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background:transparent;
+   
+    border-radius: 20%;
+    border: 2px solid cornflowerblue;
+    box-shadow: 2px 2px 2px cornflowerblue;
+    transform: rotateY(180deg);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    
+
+}
+#card2 #backcard{
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background:transparent;
+    border: 2px solid red;
+    box-shadow: 2px 2px 2px red;
+    border-radius: 20%;
+    
+    transform: rotateY(180deg);
+  
+}
+
+#card3 #backcard{
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background:transparent;
+    border: 2px solid green;
+    border-radius: 20%;
+    box-shadow: 2px 2px 2px green;
+    transform: rotateY(180deg);
+  
+
+}
+
+
+p{
+    font-size: 30px;
+    font-weight: 50;
+    text-align: center;
+
+}
+
+#card1 #frontcard p{
+    color: cornflowerblue;
+}
+
+#card2 #frontcard p{
+    color: red;
+}
+
+#card3 #frontcard p{
+    color: green;
+}
+
+#card1 #backcard p{
+    color: cornflowerblue;
+    font-size: large;
+}
+
+#card2 #backcard p{
+    color: red;
+    font-size: large;
+}
+
+#card3 #backcard p{
+    color: green;
+    font-size: large;
+}
+
+.outline{
+    font-weight: 200;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    color: #6c757d;
+    background-color: transparent;
+    background-image: none;
+    border-color: #6c757d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 35%;
+    
+}
+
+.outline:hover{
+    border-color: #6c757d;
+    /* border-width: 5px; */
+    box-shadow: 2px 2px 2px 2px  #6c757d;
+}
+
+#card2 #backcard .cont , #card1 #backcard .cont, #card3 #backcard .cont
+{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card2 #backcard .cont1, #card1 #backcard .cont1, #card3 #backcard .cont1
+{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

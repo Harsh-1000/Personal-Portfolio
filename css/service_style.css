@@ -1,0 +1,17 @@
+/* code for service section */
+
+
+.boxes{
+    width: 81.5%;
+    height: 100vh;
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/linl1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+

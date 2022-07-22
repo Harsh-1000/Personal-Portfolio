@@ -1,0 +1,78 @@
+/* code for about me */
+
+.about_container{
+
+    width: 81.5%;
+    height: 100vh;
+    display: flex;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/27233.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.aboutme{
+    width: 550px;
+    height: 550px;
+    margin-top: 100px;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    padding: 35px;
+}
+
+#headings{
+   
+    font-family: "Playfair Display",Georgia,serif;
+    color:  #333;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 15px;
+    animation: typing 3.5s steps(30,end);
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+
+.content{
+    margin-top: 50px;
+    font-size: 15px;
+    font-family: "Quicksand", Arial, sans-serif;
+    width: 100%;
+    height: fit-content;
+    color:rgba(0, 0, 0, 0.7);
+    display: flex;  
+    padding: 15px;
+    margin-top: -0.1px;
+    
+    
+}
+
+
+@keyframes typing {
+
+
+    from{
+         width: 0%;
+
+    }
+
+    to{
+         width: 100%;
+    }
+
+}
+
+  img{ 
+
+     filter: drop-shadow(0px 5px 10px black); 
+     margin-top: 70px;
+
+   
+  }
+
+
