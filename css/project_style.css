@@ -14,8 +14,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("../img/wall.png");
+    
     background-position: center;
+    background-image: url("../img/wall.png");
     background-size: cover;
     background-repeat: no-repeat;
 
