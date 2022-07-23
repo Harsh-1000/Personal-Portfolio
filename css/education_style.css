@@ -1,8 +1,8 @@
 .education{
     width: 81.5%;
     height: 100vh;
-    background-image: url("../img/wall.png");
     background-size: cover;
+    background-image: url("../img/wall.png");
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
